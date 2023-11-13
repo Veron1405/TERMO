@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'mitr';
+    src: url(mitr/mitr-SemiBold.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Mitr', sans-serif;
+}
+
+body{
+    background-color: #b1b1b1;
+    color: rgb(0, 0, 0);
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.div-linha {
+    display: flex;
+    justify-content: center;
+    margin-bottom: column;
+    padding: 20px;
+}
+
+.div-coluna{
+    background-color: #f4f3f1;
+    color: #000;
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digitando{
+    border: 3px;
+}
+
+.certo{
+    background-color: #3aa394;
+    color: white;
+}
+
+.errado{
+    background-color: #943e;
+    color: white;
+}
+
+.deslocado{
+    top: 0;
+}
+
+.teclado-linha{
+    color: white;
+}
